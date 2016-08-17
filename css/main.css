@@ -16,7 +16,7 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   width: 750px;
-  margin:0 auto;
+  margin: 50px auto;
   }
 @media screen and (max-width: 800px) {
     body {
@@ -67,8 +67,18 @@ img {
   display: block;
   vertical-align: middle; 
 }
+
+img[alt="grid-image"]{
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(10% - 4px);
+  margin-right: 4px;
+  margin-left: 4px;
+
+}
+
 ul, ol {
-  list-style:none; }
+  list-style:none;}
 
 /*a:-webkit-any-link {
     color: #18390D;

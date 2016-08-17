@@ -1,0 +1,69 @@
+---
+layout: post
+title:	"Hejfund"
+image:	/assets/hejfund/hejfund_logo8.png
+date:   2015-01-30 13:46:16 -0400
+categories:	digital
+---
+
+
+I decided I wanted to learn something new. Greg and I decided that we would use some of our free time to create an app for our iPhones. I must admit, the concept is kind of weird sounding, but that’s mostly because a lot of it is an inside joke between Greg and I. With that aside, let’s get to the meet of it.
+<br><br>
+<i>Concept: An app for Greg and I to give and receive our form of fictional currency, the chicken nugget.</i>
+
+![My helpful screenshot](/assets/hejfund/hejfund.png)
+
+The home screen is quite simple, although my design process took me through many long phases of deciding on color schemes, creating the many variations of the logos, and paring down everything into an easy, cohesive look.
+<br><br>
+
+Features:
+<ul style="list-style:circle inside; list-style-position: inside;">
+<li>A segmented button to switch between the two users </li>
+<li>A password section, the authentication of which is powered by the server that Greg wrote </li>
+<li>A random one of eight quotes that greg and I liked is featured at the bottom</li>
+</ul>
+
+
+![My helpful screenshot](/assets/hejfund/hejfund_home.png)
+
+Features:
+<ul style="list-style:circle inside; list-style-position: inside;">
+<li>Another one of the random quotes</li>
+<li>A balance of chicken nuggets, which is maintained within the server Greg made</li>
+<li>The logout button triggers a UI alert view that allows the user to either logout or stay on the screen</li>
+<li>The + button allows the user to give chicken nuggets to another user</li>
+</ul>
+
+![My helpful screenshot](/assets/hejfund/hejfund_give.png)
+
+Features:
+<ul style="list-style:circle inside; list-style-position: inside;">
+<li>Another one of the random quotes</li>
+<li>A segmented button that allows the user to choose between a chicken nugget and a golden nugget (equivalent to 100,000 nuggets)</li>
+<li>There is error checking for the nuggets section: if the user enters a negative number or other invalid input, the user will be asked to try again</li>
+<li>There is a UI alert view triggered with a valid input that confirms the number of nuggets that the user is trying to give, and whether or not they really want to give that amount</li>
+<li>A home button to take the user back to their balance</li>
+</ul>
+<br><br>
+As is obvious, this app isn’t something we’re going to try and market or sell. It was simple a learning process and a way for us to manage the chicken nuggets we owe each other. Objective C proved to be quite annoying sometimes but thanks to the numerous tutorials online, it was much easier to get started than I thought it would be. Are we iPhone app wizards now? Absolutely not. But the process taught us a lot about design, Obejctive C, and XCode.
+<br><br>
+
+Future (possible) improvements:
+<ul style="list-style:circle inside; list-style-position: inside;">
+<li>A history screen to view the date and amount of nuggets given</li>
+<li>Better navigation buttons</li>
+<li>Ability to “cash in” the nuggets</li>
+</ul>
+
+<i>Bonus:</i>
+
+This was my logo making process. I don’t really come from a design background, and although I like pretty things, creating them from scratch is easier for me in craft hobbies than in logo and UI development. Below is the progression of the logo. It started out as a bunch of weird geometric messes, developed into a logo that looked like it would belong at an oil plant, and ended up with a chick- the source of our chicken nugget.
+
+![grid-image](/assets/hejfund/hejfund_logo1.png)
+![grid-image](/assets/hejfund/hejfund_logo2.png)
+![grid-image](/assets/hejfund/hejfund_logo3.png)
+![grid-image](/assets/hejfund/hejfund_logo4.png)
+![grid-image](/assets/hejfund/hejfund_logo5.png)
+![grid-image](/assets/hejfund/hejfund_logo6.png)
+![grid-image](/assets/hejfund/hejfund_logo7.png)
+![grid-image](/assets/hejfund/hejfund_logo8.png)
