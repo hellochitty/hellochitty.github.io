@@ -35,6 +35,9 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
 }
+.site-footer {
+  border-top: 0.5px solid #18390D;
+}
 
 ul, ol {
   list-style:none;}
