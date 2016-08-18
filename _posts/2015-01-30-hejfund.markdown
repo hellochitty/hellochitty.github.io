@@ -7,7 +7,7 @@ categories:	digital
 ---
 
 
-I decided I wanted to learn something new. Greg and I decided that we would use some of our free time to create an app for our iPhones. I must admit, the concept is kind of weird sounding, but that’s mostly because a lot of it is an inside joke between Greg and I. With that aside, let’s get to the meet of it.
+I decided I wanted to learn something new. Greg and I decided that we would use some of our free time to create an app for our iPhones. I must admit, the concept is kind of weird sounding, but that’s mostly because a lot of it is an inside joke between Greg and I. With that aside, let’s get to the meat of it.
 <br><br>
 <i>Concept: An app for Greg and I to give and receive our form of fictional currency, the chicken nugget.</i>
 
@@ -59,11 +59,16 @@ Future (possible) improvements:
 
 This was my logo making process. I don’t really come from a design background, and although I like pretty things, creating them from scratch is easier for me in craft hobbies than in logo and UI development. Below is the progression of the logo. It started out as a bunch of weird geometric messes, developed into a logo that looked like it would belong at an oil plant, and ended up with a chick- the source of our chicken nugget.
 
-![grid-image](/assets/hejfund/hejfund_logo1.png)
-![grid-image](/assets/hejfund/hejfund_logo2.png)
-![grid-image](/assets/hejfund/hejfund_logo3.png)
-![grid-image](/assets/hejfund/hejfund_logo4.png)
-![grid-image](/assets/hejfund/hejfund_logo5.png)
-![grid-image](/assets/hejfund/hejfund_logo6.png)
-![grid-image](/assets/hejfund/hejfund_logo7.png)
-![grid-image](/assets/hejfund/hejfund_logo8.png)
+<div class="row">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo1.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo2.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo3.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo4.png">
+</div>
+<div class="row">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo5.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo6.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo7.png">
+<img class= "col-3" src="/assets/hejfund/hejfund_logo8.png">
+
+</div>

@@ -1,3 +1,168 @@
+
+    
+
+/* For mobile */
+* {
+  box-sizing: border-box;
+}
+
+[class *="col-"] {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.post-title {
+    font-size: 36px; 
+} 
+
+
+
+/* For all */
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #18390D;
+  background-color: #FFFFFF;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+ul, ol {
+  list-style:none;}
+
+.site-title {
+  text-align: center;
+}
+
+.post-thumb {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a {
+  color: #2a7ae2;
+  text-decoration: none; }
+a:visited {
+    color: #1756a9; }
+a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+img {
+  min-width: 150px;
+  max-width: 40%;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  display: block;
+  vertical-align: middle; 
+}
+
+/*post-specific css*/
+.post-title {
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+body{
+  width: 750px;
+  margin: 50px auto;
+}
+
+.post-thumb {
+  max-width: 100%
+}
+
+
+.post-image {
+    position:relative;
+}
+.post-image  img {
+    width:100%;
+    vertical-align:top;
+}
+.post-image:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background: #18390D;
+    opacity:0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+.post-image:hover:after {
+    opacity:0.8;
+}
+
+
+/* Post-specific CSS: */
+
+
+.post-title {
+  font-size: 42px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media DISABLED {
+
+/*OLD SHIT*/
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -77,6 +242,12 @@ img[alt="grid-image"]{
 
 }
 
+/*
+.post-list ul li a:hover {
+  background-color: black; }
+*/
+
+
 ul, ol {
   list-style:none;}
 
@@ -88,14 +259,49 @@ ul, ol {
 }*/
 
 .post-link img {
+  vertical-align: top;
   display: inline-block;
   margin-bottom: 8px;
   width: calc(25% - 4px);
-  margin-right: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
+
+.overlay {
+  position: relative;
+}
+.overlay:after {
+    content: '\A';
+    position: absolute;
+    width: calc(25% - 4px);
+    height: calc(25% - 4px);
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    vertical-align: top;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.overlay:hover:after {
+    opacity: 1;
+}
+
+.overlay:after {
+    content: attr(data-content);
+    color: #fff;
+}
+
+
+/*
 .post-link img :nth-of-type(2n) {
   margin-right: 0;
 }
+*/
 
 .site-nav {
   float: right;
@@ -180,3 +386,4 @@ ul, ol {
 
 .catbloc:not(:target) {
     display: none;}
+}

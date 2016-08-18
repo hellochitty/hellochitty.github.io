@@ -2,9 +2,19 @@
 
   <div class="wrapper">
 
-    <!--Add this to site-title to make the site title a hyperlinkhref="{{ site.baseurl }}/" -->
-    <a class="site-title" >{{ site.title | escape }}</a>
+    <!--Add this to site-title to make the site title a hyperlink href="{{ site.baseurl }}/" -->
+    <div class="row">
+     <a class="col-12 site-title" >{{ site.title | escape }}</a>
+    </div>
 
+    <div class= "row>">
+      <nav class="col-12 site-nav">
+       <a class="page-link" href="#allposts">All</a>
+      {% for category in site.categories %}
+          <a class="page-link" href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %} {% else %} {% endif %}
+      {% endfor %}
+    </nav>
+    </div>
     <nav class="site-nav">
       <!--<a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
