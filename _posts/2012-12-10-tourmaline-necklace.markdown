@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tourmaline Necklace"
-image:	assets/jewelry/tourmaline_necklace.png
+image:	/assets/jewelry/tourmaline_necklace.png
 date:   2012-12-10 13:46:16 -0400
 categories: physical
 ---

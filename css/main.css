@@ -63,7 +63,7 @@ a:hover {
 
 img {
   min-width: 150px;
-  max-width: 40%;
+  max-width: 70%;
   margin: auto;
   display: block;
   vertical-align: middle; 
@@ -71,6 +71,18 @@ img {
 
 .footer-description{
   line-height: 20px;
+}
+
+.site-nav{
+  text-align: center;
+  text-weight: none;
+}
+
+
+.site-nav .about{
+  text-align: center;
+  color: #000033;
+  text-weight: bold;
 }
 
 /*post-specific css*/

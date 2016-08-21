@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Braided Pearl Necklace"
-image:	assets/jewelry/pearl_braided_necklace.png
+image:	/assets/jewelry/pearl_braided_necklace.png
 type:	two
 date:   2012-12-30 13:46:16 -0400
 categories: physical
