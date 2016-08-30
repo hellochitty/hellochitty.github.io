@@ -3,7 +3,8 @@ layout: post
 title:	"HI Knitted Hat"
 image:	https://scontent.cdninstagram.com/t51.2885-15/e35/13099021_268789730125962_1286866073_n.jpg?ig_cache_key=MTIzNTk0NjEyOTE2OTk5Nzc1Ng%3D%3D.2
 date:   2016-03-20 13:46:16 -0400
-categories:	digital physical
+categories:	physical
+hover-tag: Knitting
 ---
 
 Living in a city as CROWDED as New York City, it's hard to believe that sometimes it just feels downright LONELY. There's people all around buzzing about, reading, listening to music, yelling, sleeping, jogging, shopping, eating and just living their lives, but sometimes I can't help but feel isolated. I guess I would liken it to the phrase "Water, water everywhere, but not a drop to drink."

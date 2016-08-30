@@ -5,6 +5,7 @@ image:	/assets/chalk_bag_embroidery.png
 type:	two
 date:   2014-01-22 13:46:16 -0400
 categories: physical
+hover-tag: Sewing
 ---
 I've got sweaty hands, which makes rock climbing somewhat of a disaster. Chalk doesn't always help, as it usually combines with the sweat to form mush. Yuck. 
 <br><br>

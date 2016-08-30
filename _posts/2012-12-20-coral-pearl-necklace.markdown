@@ -4,6 +4,7 @@ title:  "Coral and Pearl Necklace"
 image:	/assets/jewelry/coral_pearl_necklace.png
 date:   2012-12-20 13:46:16 -0400
 categories: physical
+hover-tag: Jewelry
 ---
 Creating this necklace, while technically not difficult, took SO MUCH TIME. Threading wire through tiny beads with tiny holes takes more time than you can imagine. 
 <br><br>
