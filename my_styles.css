@@ -1,0 +1,30 @@
+body {
+  font-family: "Arial, sans-serif";
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+.direction-list {
+  list-style: circle outside;
+}
+
+header > img {
+  width: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+*{
+  background-color: #e7e7e7;
+}
