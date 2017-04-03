@@ -17,10 +17,13 @@
 
     </script>
     <script src="external_javascript_example.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css_reset.css" type="text/css">
+    <link rel="stylesheet" href="custom_grid.css" type="text/css">
+    <!-- Is this how you link a reset style sheet -->
     <link rel="stylesheet" href="my_styles.css" type="text/css">
   </head>
   <body>
-    <header>
+    <header class="cf">
       <img src="https://p5.zdassets.com/hc/settings_assets/949671/200252358/ytySguzPxy92CMwTwD4fxg-logo-emblem-red.png"/>
       <nav>
         <ul>
@@ -30,6 +33,7 @@
         </ul>
       </nav>
     </header>
+    <div class="col col-1-3 cf">
     <aside>
       <h2 id="ingredients">Ingredients</h2>
         <ul class= "ingredients-list">
@@ -42,7 +46,10 @@
           <li>1 cup Sprite, 7-UP, Or Sierra Mist</li>
         </ul>
     </aside>
+  </div>
+  <div class="col col-2-3 cf">
     <section>
+      <h2>Pound Cake Recipe</h2>
       <figure>
         <img src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXlRqwUQeTEWXxT8nLvGh4oHdN1iNMWjHLLGjNs80oBzv9NPDd9Q" />
       </figure>
@@ -50,8 +57,8 @@
         Pound Cake Pic
         <a href= "https://en.wikipedia.org/wiki/Pound_cake" target= "none" alt = "wikipedia link">wikipedia</a>
       </figcaption>
-    </section>
-    <h2>Pound Cake Recipe</h2>
+
+
     <h2 id="description">Description</h2>
       Pound cake refers to a type of cake traditionally made with a pound of each of four ingredients: flour, butter, eggs, and sugar. However, any cake made with a 1:1:1:1 ratio, by weight, of flour, butter, eggs, and sugar may also be called a pound  cake, as it yields the same results.
 
@@ -69,6 +76,8 @@
       <li>Pour into a greased Bundt pan and bake for 1 hour to 1 hour 10 minutes, until the cake is no longer jiggly.</li>
       <li>Remove cake from oven and invert pan until cake drops out. Slice and chow down!</li>
     </ol>
+    </section>
+  </div>
     <footer>
       OG recipe from <a href="http://thepioneerwoman.com/cooking/perfect-pound-cake/" target="none"> Pioneer Woman</a>
     </footer>
@@ -77,16 +86,14 @@
       <form id= "review-form" action="/reviews" method="post">
         <label for="user[name]"> Your Name Please! </label>
         <input id="user_name" name="user_name" type="text">
-        <br><br>
+
         <label for="rating"> Rating: </label>
-        <br>
+
         1<input type= "radio" name= "user[rating]" value= "1" checked>
         2<input type= "radio" name= "user[rating]" value= "2">
         3<input type= "radio" name= "user[rating]" value= "3">
         4<input type= "radio" name= "user[rating]" value= "4">
         5<input type= "radio" name= "user[rating]" value= "5">
-        <br><br>
-        <label for="expertise"> Cooking Expertise: </label>
         <select name="user[expertise]">
           <option disable selected>Select Cooking Expertise</option>
           <option value="sometimes_cook">Sometimes Cook</option>
@@ -94,11 +101,7 @@
           <option value="cooking_is_a_hobby">Cooking is a Hobby</option>
           <option value="professional_chef">Professional Chef</option>
         </select>
-        <br><br>
-        <label for="expertise">Review:</label>
-        <br>
         <textarea name=user[review]> </textarea>
-        <br>
         <input type ="submit" value="add_review">
       </form>
     </section>
