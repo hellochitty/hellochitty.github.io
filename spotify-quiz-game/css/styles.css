@@ -1,0 +1,63 @@
+body, h1, h2, h3, h4, h5{
+  margin: 0px;
+  padding: 0px;
+  color: inherit;
+  font-family: 'Monstserrat', sans-serif;
+}
+
+
+
+
+body{
+  background-color: #191414;
+  color: pink;
+  text-align: center;
+  background: url(http://cdn.wallpapersafari.com/46/7/MVBOFG.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.body{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+}
+
+.settings-playlist{
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.playlist{
+  background: transparent;
+  border: none;
+}
+.playlist > img{
+  width: 200px;
+  height: auto;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/*progress bar styles*/
+#myProgress {
+    width: 90%;
+    background-color: rgba(102,112,111,0.5);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+#myBar {
+    width: 0%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: pink;
+}
