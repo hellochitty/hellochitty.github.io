@@ -1,0 +1,164 @@
+body {
+  font-family: "Arial, sans-serif";
+  width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+.direction-list {
+  list-style: circle outside;
+}
+
+header > img {
+  width: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hamburger-dropdown > li {
+  display: none;
+}
+
+@media all and (max-width: 900px) {
+  nav .regular {
+    display: none;
+  }
+
+.hamburger-dropdown > li {
+  background-image: url(./hamburger.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger-dropdown ul {
+   position: absolute;
+   top: 50px;
+   left: 0;
+   flex-direction: column;
+   cursor: pointer;
+   box-shadow: black 5px 5px 10px;
+ }
+
+ .hamburger-dropdown:hover ul {
+   display: flex;
+   background: ghostwhite;
+ }
+
+ .hamburger-dropdown ul li:hover a {
+   text-decoration: underline;
+ }
+}
+
+*{
+  background-color: #e7e7e7;
+}
+
+
+input:last-child {
+  background-color: gold;
+
+}
+
+
+input:last-child:hover {
+  -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: #d3d3d3;
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
+}
+
+input[type="radio"] {
+   -webkit-appearance: none;
+   width: 27px;
+  height: 27px;
+  background-image: url(../hellochitty.github.io/stars.png);
+  vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+nav {
+  display :block;
+  float: right;
+}
+
+
+nav li {
+  display: block;
+  float: left;
+}
+nav li a {
+  display: block;
+  padding : 20px;
+}
+section{
+  display: block;
+  vertical-align: top;
+}
+
+aside{
+  display: block;
+}
+ul li {
+  margin: 15px 0px;
+}
+ol li {
+  margin: 15px 0px;
+}
+input[type="text"], select {
+  display: block;
+  width: 200px;
+}
+textarea {
+  width: 400px;
+}
+
+input[type="submit"]{
+  background: gold;
+	color:ButtonText;
+	border:2px outset ButtonFace;
+}
+
+header > img {
+  display: block;
+  float: left;
+}
+
+.cf:after{
+  content: ""; /* Empty content string */
+  display: block; /* Only block elements can clear */
+  clear: both;
+}
+
+footer {
+  display: block;
+}
+
+header {
+  width: 100%;
+}
+
+/*Cannot get two sides to be side by side*/
