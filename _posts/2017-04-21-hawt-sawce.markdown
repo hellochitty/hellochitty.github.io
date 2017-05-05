@@ -4,7 +4,7 @@ title:	"HAWT SAWCE"
 image:	/assets/hawt_sawce/hawt_sawce_thumb.png
 date:   2017-04-21 10:00:00 -0400
 categories:	digital
-hover-tag: Programming + Design
+hover-tag: Programming + UI/UX Design
 ---
 When I was a child, my grandfather penned a nickname for me. He called me "chili chithra" due to my love for all things spicy. I can't count the number the times people have asked me if I wanted some main course to go with my hot sauce.
 
