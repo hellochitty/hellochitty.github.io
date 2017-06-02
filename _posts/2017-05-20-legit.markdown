@@ -17,6 +17,7 @@ Users authenticate the app using OAuth2.0, after which they are able to view and
 After choosing a playlist, the User then has to listen to snippets of 10 songs, identifying each of them
 
 ![Legit Choose Playlist](/assets/legit/legit_playsong.png)
+<br><br>
 ![Legit Choose Playlist](/assets/legit/legit_chooseanswer.png)
 
 
