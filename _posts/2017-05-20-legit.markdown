@@ -1,0 +1,22 @@
+---
+layout: post
+title:	"Legit"
+image:	/assets/legit/Legit_thumb.png
+date:   2017-05-20 10:00:00 -0400
+categories:	digital
+hover-tag: Programming + UI/UX Design
+---
+The concept for Legit was inspired by a game I used to play with my dad in the car as a child. He’d skip to a random song on a cassette and play a small snippet of a track, which I would then have to identify. Based on that, I created a JavaScript game utilizing the Spotify API that will test you on how well you know the songs in your playlists. The game is purely JS, and all the development/design is my own work. Checkout my code on [github](https://github.com/hellochitty/Legit).
+
+
+![Legit front page](/assets/legit/legit_frontpage.png)
+Users authenticate the app using OAuth2.0, after which they are able to view and select their playlists.
+
+
+![Legit Choose Playlist](/assets/legit/legit_chooseplaylist.png)
+After choosing a playlist, the User then has to listen to snippets of 10 songs, identifying each of them
+
+![Legit Choose Playlist](/assets/legit/legit_playsong.png)
+![Legit Choose Playlist](/assets/legit/legit_chooseanswer.png)
+
+
